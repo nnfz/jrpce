@@ -1,0 +1,11 @@
+{
+  "identifier": "fs:config",
+  "description": "Allow reading and writing config.json in app config dir",
+  "windows": ["main"], 
+  "permissions": [
+    "fs:allow-appconfig-read",
+    "fs:allow-appconfig-write",
+    "fs:allow-read-text-file",
+    "fs:allow-write-text-file"
+  ]
+}

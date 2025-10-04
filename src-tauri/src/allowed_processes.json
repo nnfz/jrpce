@@ -1,0 +1,20 @@
+[
+  {
+    "process_name": "Cinema 4D.exe",
+    "icon_path": "icons/c4d_ico.png",
+    "display_name": "Cinema 4D",
+    "app_id": "1247511692380733451",        
+    "title_extract_patterns": [
+      "\\[([^\\]]+)\\]"
+    ]
+  },
+  {
+    "process_name": "AfterFX.exe",
+    "icon_path": "icons/ae_ico.png",
+    "display_name": "Adobe After Effects",
+    "app_id": "1247722615263465573",        
+    "title_extract_patterns": [
+      " - (.+)$"
+    ]
+  }
+]
